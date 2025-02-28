@@ -19,7 +19,7 @@ Red Alert: Cycle Tracker is an offline menstrual cycle tracking application desi
 - As an offline app, your data’s security depends on your device’s protection. We recommend securing your device against unauthorized access.
 
 ## Contact Us
-- If you have questions, contact us at: [your.email@example.com](mailto:your.email@example.com).
+- If you have questions, contact us at: [redalertcycle@gmail.com](mailto:redalertcycle@gmail.com).
 
 ## Changes to This Policy
 - Any updates will be posted here. Check back for changes.
