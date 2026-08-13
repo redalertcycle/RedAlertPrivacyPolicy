@@ -1,0 +1,553 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Privacy Policy — Red Alert: Cycle Tracker</title>
+<meta name="description" content="How the Red Alert cycle tracker app handles your data. Plain-English summary alongside the full policy.">
+<meta name="robots" content="index, follow">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&family=IBM+Plex+Mono:wght@500&display=swap" rel="stylesheet">
+<style>
+:root{
+  --ink:#17161b;
+  --ink-soft:#54525e;
+  --ink-faint:#8b8894;
+  --paper:#fbfaf8;
+  --panel:#ffffff;
+  --rule:#e4e1dc;
+  --crimson:#a81f2d;
+  --crimson-wash:#fdf2f2;
+  --measure:38rem;
+  --gutter:clamp(1.25rem,5vw,4rem);
+}
+
+*,*::before,*::after{box-sizing:border-box}
+
+html{-webkit-text-size-adjust:100%}
+
+body{
+  margin:0;
+  background:var(--paper);
+  color:var(--ink);
+  font-family:"Source Serif 4",Georgia,serif;
+  font-size:1.0625rem;
+  line-height:1.65;
+  font-optical-sizing:auto;
+}
+
+a{color:var(--crimson);text-decoration-thickness:1px;text-underline-offset:2px}
+a:focus-visible,summary:focus-visible{outline:2px solid var(--crimson);outline-offset:3px;border-radius:2px}
+
+.wrap{max-width:64rem;margin:0 auto;padding:0 var(--gutter)}
+
+/* ---------- Masthead ---------- */
+
+.masthead{border-bottom:1px solid var(--rule);background:var(--panel)}
+.masthead .wrap{padding-top:clamp(2.5rem,7vw,4.5rem);padding-bottom:clamp(2rem,5vw,3rem)}
+
+.eyebrow{
+  font-family:"IBM Plex Mono",ui-monospace,monospace;
+  font-size:.6875rem;
+  letter-spacing:.16em;
+  text-transform:uppercase;
+  color:var(--crimson);
+  margin:0 0 1.25rem;
+}
+
+h1{
+  font-family:"Bricolage Grotesque",system-ui,sans-serif;
+  font-weight:700;
+  font-size:clamp(2.25rem,6vw,3.75rem);
+  line-height:1.02;
+  letter-spacing:-.025em;
+  margin:0 0 1rem;
+  max-width:16ch;
+}
+
+.standfirst{
+  font-size:clamp(1.0625rem,2.2vw,1.25rem);
+  color:var(--ink-soft);
+  max-width:var(--measure);
+  margin:0 0 2rem;
+}
+
+.dateline{
+  display:flex;
+  flex-wrap:wrap;
+  gap:.5rem 2rem;
+  font-family:"IBM Plex Mono",ui-monospace,monospace;
+  font-size:.75rem;
+  letter-spacing:.04em;
+  color:var(--ink-faint);
+  padding-top:1.5rem;
+  border-top:1px solid var(--rule);
+}
+.dateline b{color:var(--ink);font-weight:500}
+
+/* ---------- Placeholder marker ---------- */
+
+.fillme{
+  background:#fff3bf;
+  box-shadow:0 0 0 2px #fff3bf;
+  border-bottom:2px solid #d9a800;
+  font-family:"IBM Plex Mono",ui-monospace,monospace;
+  font-size:.85em;
+}
+
+/* ---------- Summary panel ---------- */
+
+.summary{background:var(--crimson-wash);border-bottom:1px solid var(--rule)}
+.summary .wrap{padding-block:clamp(2rem,5vw,3rem)}
+
+.summary h2{
+  font-family:"Bricolage Grotesque",system-ui,sans-serif;
+  font-size:1.0625rem;
+  font-weight:700;
+  letter-spacing:-.01em;
+  margin:0 0 1.25rem;
+}
+
+.summary ul{
+  margin:0;
+  padding:0;
+  list-style:none;
+  display:grid;
+  gap:.875rem;
+  grid-template-columns:repeat(auto-fit,minmax(17rem,1fr));
+}
+
+.summary li{
+  padding-left:1.375rem;
+  position:relative;
+  color:var(--ink-soft);
+  font-size:.9375rem;
+  line-height:1.55;
+}
+.summary li::before{
+  content:"";
+  position:absolute;
+  left:0;top:.6em;
+  width:.5rem;height:.5rem;
+  background:var(--crimson);
+  border-radius:50%;
+}
+.summary li b{color:var(--ink);font-weight:600}
+
+/* ---------- Clause grid: gloss + formal text ---------- */
+
+main .wrap{padding-block:clamp(2.5rem,6vw,4rem)}
+
+.clause{
+  display:grid;
+  grid-template-columns:12rem 1fr;
+  gap:0 3rem;
+  padding-block:2.25rem;
+  border-top:1px solid var(--rule);
+  align-items:start;
+}
+.clause:first-of-type{border-top:none;padding-top:0}
+
+.clause > .gloss{position:sticky;top:1.5rem}
+
+.num{
+  font-family:"IBM Plex Mono",ui-monospace,monospace;
+  font-size:.6875rem;
+  letter-spacing:.12em;
+  color:var(--crimson);
+  display:block;
+  margin-bottom:.5rem;
+}
+
+.clause h2{
+  font-family:"Bricolage Grotesque",system-ui,sans-serif;
+  font-size:1.125rem;
+  font-weight:700;
+  line-height:1.2;
+  letter-spacing:-.015em;
+  margin:0 0 .625rem;
+}
+
+.plain{
+  font-size:.875rem;
+  line-height:1.5;
+  color:var(--ink-faint);
+  font-style:italic;
+  margin:0;
+}
+
+.body{max-width:var(--measure)}
+.body > :first-child{margin-top:0}
+.body > :last-child{margin-bottom:0}
+.body p{margin:0 0 1rem}
+.body ul{margin:0 0 1rem;padding-left:1.125rem}
+.body li{margin-bottom:.5rem}
+.body strong{font-weight:600}
+
+.callout{
+  border-left:3px solid var(--crimson);
+  padding:.125rem 0 .125rem 1.125rem;
+  margin:1.25rem 0;
+  color:var(--ink);
+}
+
+/* ---------- Data table ---------- */
+
+.data-table{width:100%;border-collapse:collapse;margin:0 0 1rem;font-size:.9375rem}
+.data-table caption{text-align:left;color:var(--ink-faint);font-size:.8125rem;padding-bottom:.625rem}
+.data-table th,.data-table td{text-align:left;padding:.75rem .875rem .75rem 0;border-bottom:1px solid var(--rule);vertical-align:top}
+.data-table th{
+  font-family:"Bricolage Grotesque",system-ui,sans-serif;
+  font-size:.6875rem;
+  font-weight:700;
+  letter-spacing:.09em;
+  text-transform:uppercase;
+  color:var(--ink-faint);
+  border-bottom-width:2px;
+  border-bottom-color:var(--ink);
+}
+.data-table td:first-child{font-weight:600;padding-right:1.25rem}
+
+.tag{
+  display:inline-block;
+  font-family:"IBM Plex Mono",ui-monospace,monospace;
+  font-size:.6875rem;
+  letter-spacing:.05em;
+  padding:.1875rem .5rem;
+  border-radius:3px;
+  white-space:nowrap;
+}
+.tag-local{background:#e8f1e9;color:#1f5c33}
+.tag-out{background:var(--crimson-wash);color:var(--crimson)}
+
+/* ---------- Contact ---------- */
+
+.contact{border-top:1px solid var(--rule);background:var(--panel)}
+.contact .wrap{padding-block:clamp(2.5rem,6vw,3.5rem)}
+.contact h2{
+  font-family:"Bricolage Grotesque",system-ui,sans-serif;
+  font-size:1.5rem;
+  font-weight:700;
+  letter-spacing:-.02em;
+  margin:0 0 .75rem;
+}
+.contact p{max-width:var(--measure);color:var(--ink-soft);margin:0 0 1rem}
+.contact-mail{
+  font-family:"Bricolage Grotesque",system-ui,sans-serif;
+  font-size:clamp(1.125rem,3vw,1.5rem);
+  font-weight:500;
+  letter-spacing:-.01em;
+}
+
+footer{border-top:1px solid var(--rule);color:var(--ink-faint);font-size:.8125rem}
+footer .wrap{padding-block:2rem}
+
+/* ---------- Responsive ---------- */
+
+@media (max-width:56rem){
+  .clause{grid-template-columns:1fr;gap:.875rem}
+  .clause > .gloss{position:static}
+  .plain{max-width:var(--measure)}
+}
+
+@media (prefers-reduced-motion:reduce){
+  *{animation:none!important;transition:none!important;scroll-behavior:auto!important}
+}
+
+@media print{
+  body{background:#fff;font-size:10.5pt}
+  .summary{background:#fff}
+  .clause > .gloss{position:static}
+  .fillme{background:none;box-shadow:none}
+}
+</style>
+</head>
+<body>
+
+<header class="masthead">
+  <div class="wrap">
+    <p class="eyebrow">Red Alert — Cycle Tracker</p>
+    <h1>Privacy Policy</h1>
+    <p class="standfirst">This page explains what Red Alert does with the information you put into it, what leaves your phone, and what never does. Each section has a plain-English note beside it.</p>
+    <div class="dateline">
+      <span>Effective <b><span class="fillme">[DD MONTH YYYY]</span></b></span>
+      <span>Last updated <b><span class="fillme">[DD MONTH YYYY]</span></b></span>
+      <span>Applies to <b>Red Alert: Cycle Tracker</b> (Android, package <b>com.rnr.redalert</b>)</span>
+    </div>
+  </div>
+</header>
+
+<section class="summary">
+  <div class="wrap">
+    <h2>The short version</h2>
+    <ul>
+      <li><b>Your cycle data stays on your phone.</b> Dates, notes, logs and settings are stored locally. We never receive them.</li>
+      <li><b>Backup is optional and encrypted.</b> If you turn it on, an encrypted file goes to <em>your own</em> Google Drive. We can't read it.</li>
+      <li><b>No account needed.</b> You can use the whole free app without signing in to anything.</li>
+      <li><b>We do use analytics.</b> Google Analytics for Firebase tells us about crashes and general usage — never your cycle data or notes.</li>
+      <li><b>We don't sell anything about you.</b> No data brokers, no advertising networks, no profiling.</li>
+      <li><b>Tracking someone else needs their agreement.</b> This app is built to be used openly, together.</li>
+    </ul>
+  </div>
+</section>
+
+<main>
+  <div class="wrap">
+
+    <section class="clause">
+      <div class="gloss">
+        <span class="num">01</span>
+        <h2>Who we are</h2>
+        <p class="plain">The people responsible for this app and how to reach them.</p>
+      </div>
+      <div class="body">
+        <p>Red Alert: Cycle Tracker is developed and published by <span class="fillme">[LEGAL NAME — individual or company]</span>, trading as <strong>RnR</strong>, based in <span class="fillme">[CITY, COUNTRY]</span>.</p>
+        <p>For data protection purposes, we are the data controller for the limited information described in this policy. You can contact us at any time at <a href="mailto:redalertcycle@gmail.com">redalertcycle@gmail.com</a>.</p>
+      </div>
+    </section>
+
+    <section class="clause">
+      <div class="gloss">
+        <span class="num">02</span>
+        <h2>Tracking another person</h2>
+        <p class="plain">Read this one even if you skip the rest.</p>
+      </div>
+      <div class="body">
+        <p>Red Alert is designed for someone tracking a partner's menstrual cycle. That means you may be entering information about another person's health.</p>
+        <div class="callout">
+          <p><strong>Only use this app to record someone else's cycle if that person knows about it and agrees to it.</strong> Recording another person's health information without their knowledge may be unlawful where you live, and it is not what this app is for.</p>
+        </div>
+        <p>We have no way to verify consent, and we do not monitor how the app is used. The responsibility is yours. Red Alert works best as something you and your partner both know about — a shared reference, not a secret one.</p>
+        <p>If someone has entered your information into this app without your agreement, you can contact us at the address in section 1 and we will help however we can — though please note that because the data lives on that person's device rather than on our servers, our ability to act is limited.</p>
+      </div>
+    </section>
+
+    <section class="clause">
+      <div class="gloss">
+        <span class="num">03</span>
+        <h2>What the app handles</h2>
+        <p class="plain">Everything the app touches, and whether it ever leaves your phone.</p>
+      </div>
+      <div class="body">
+        <table class="data-table">
+          <caption>Green = never leaves your device. Red = leaves your device under the conditions described.</caption>
+          <thead>
+            <tr><th scope="col">Information</th><th scope="col">Where it goes</th></tr>
+          </thead>
+          <tbody>
+            <tr><td>Cycle start date, cycle length, phase settings</td><td><span class="tag tag-local">On device</span></td></tr>
+            <tr><td>Daily logs: mood, energy, symptoms mentioned, intimacy, free-text notes</td><td><span class="tag tag-local">On device</span></td></tr>
+            <tr><td>Profile names you create</td><td><span class="tag tag-local">On device</span></td></tr>
+            <tr><td>App preferences: language, colours, notification settings</td><td><span class="tag tag-local">On device</span></td></tr>
+            <tr><td>Encrypted backup file (only if you enable backup)</td><td><span class="tag tag-out">Your Google Drive</span></td></tr>
+            <tr><td>Google account email (only if you enable backup)</td><td><span class="tag tag-out">Stored on device; used with Google</span></td></tr>
+            <tr><td>Crash reports, app version, device model, OS version, coarse region, a random app instance identifier</td><td><span class="tag tag-out">Google Firebase</span></td></tr>
+            <tr><td>Purchase and subscription status</td><td><span class="tag tag-out">Google Play</span></td></tr>
+          </tbody>
+        </table>
+        <p>We do not ask for your name, your phone number, your address, your contacts, your photos, or your location. The app requests no location permission.</p>
+      </div>
+    </section>
+
+    <section class="clause">
+      <div class="gloss">
+        <span class="num">04</span>
+        <h2>Where your data lives</h2>
+        <p class="plain">On your phone, in the app's private storage.</p>
+      </div>
+      <div class="body">
+        <p>Everything you enter is stored in a database and a settings file inside the app's private storage area on your device. On Android, other apps cannot read this area.</p>
+        <p>We do not operate servers that store your cycle information. There is no Red Alert account, and nothing you enter is synchronised to us.</p>
+        <p>This also means: <strong>if you uninstall the app or reset your device without a backup, your data is gone permanently and we cannot recover it.</strong></p>
+      </div>
+    </section>
+
+    <section class="clause">
+      <div class="gloss">
+        <span class="num">05</span>
+        <h2>Google Drive backup</h2>
+        <p class="plain">Optional, off by default, encrypted before it leaves your phone.</p>
+      </div>
+      <div class="body">
+        <p>Backup is a Premium feature and is <strong>disabled by default</strong>. If you turn it on:</p>
+        <ul>
+          <li>The app packages your database and settings into a single file.</li>
+          <li>That file is encrypted <strong>on your device</strong> using AES-256 in GCM mode, with a key derived from your Google account address.</li>
+          <li>Only the encrypted file is uploaded, into a folder named <em>RedAlertBackups</em> in <strong>your own</strong> Google Drive.</li>
+          <li>The unencrypted copy is deleted from your device immediately after encryption.</li>
+        </ul>
+        <p>The file never passes through our systems and we hold no copy of it and no key to it. Restoring a backup requires signing in with the same Google account that created it.</p>
+        <div class="callout">
+          <p>Be aware of what this encryption does and does not do. It protects the file against anyone who obtains it without knowing the associated account address. It is not designed to withstand a determined attacker who already knows that address. If your threat model is more serious than "I don't want a stray file readable in my Drive", do not enable backup.</p>
+        </div>
+        <p>Once in your Drive, the file is also governed by <a href="https://policies.google.com/privacy" rel="noopener noreferrer" target="_blank">Google's Privacy Policy</a>. You can delete it yourself at any time from Google Drive, and you can disable backup in the app's Settings.</p>
+        <p>Red Alert's use of information received from Google APIs adheres to the <a href="https://developers.google.com/terms/api-services-user-data-policy" rel="noopener noreferrer" target="_blank">Google API Services User Data Policy</a>, including the Limited Use requirements. We request only the <code>drive.file</code> scope, which grants access solely to files this app itself creates — not to the rest of your Drive.</p>
+      </div>
+    </section>
+
+    <section class="clause">
+      <div class="gloss">
+        <span class="num">06</span>
+        <h2>Analytics</h2>
+        <p class="plain">We measure crashes and general usage. Never your cycle data.</p>
+      </div>
+      <div class="body">
+        <p>The app includes Google Analytics for Firebase, which helps us see where the app crashes, which features get used, and roughly where our users are, so we can fix problems and decide what to build.</p>
+        <p><strong>What is sent:</strong> app version, device model, operating system version, coarse region or country, general interaction events such as opening a screen, crash and error reports, and a randomly generated app instance identifier.</p>
+        <p><strong>What is never sent:</strong> cycle dates, phase information, daily logs, notes, intimacy records, profile names, or anything else you type into the app.</p>
+        <p>Firebase data is processed by Google. See <a href="https://firebase.google.com/support/privacy" rel="noopener noreferrer" target="_blank">Firebase's privacy documentation</a> and <a href="https://policies.google.com/privacy" rel="noopener noreferrer" target="_blank">Google's Privacy Policy</a>. Our legal basis for this processing is our legitimate interest in maintaining and improving the app.</p>
+      </div>
+    </section>
+
+    <section class="clause">
+      <div class="gloss">
+        <span class="num">07</span>
+        <h2>Purchases</h2>
+        <p class="plain">Google Play handles payment. We never see your card.</p>
+      </div>
+      <div class="body">
+        <p>Premium is an optional annual subscription sold through Google Play Billing. Google processes the payment and tells the app only whether an active subscription exists.</p>
+        <p>We never receive or store your payment card, billing address, or Google account password. Subscriptions renew and can be cancelled through your Google Play account settings. Payment information is governed by <a href="https://payments.google.com/legaldocument?family=0.privacynotice" rel="noopener noreferrer" target="_blank">Google Payments' privacy notice</a>.</p>
+      </div>
+    </section>
+
+    <section class="clause">
+      <div class="gloss">
+        <span class="num">08</span>
+        <h2>Permissions</h2>
+        <p class="plain">What the app asks for, and why.</p>
+      </div>
+      <div class="body">
+        <ul>
+          <li><strong>Notifications</strong> — to send you a heads-up the day before a phase change. Optional; the app works without it.</li>
+          <li><strong>Internet</strong> — used only for Drive backup, analytics, and verifying your subscription. Never for sending your cycle data anywhere.</li>
+          <li><strong>Google account access</strong> — requested only if you enable Drive backup, and limited to files this app creates.</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="clause">
+      <div class="gloss">
+        <span class="num">09</span>
+        <h2>Sharing</h2>
+        <p class="plain">We don't sell, rent, or trade anything.</p>
+      </div>
+      <div class="body">
+        <p>We do not sell your information. We do not share it with advertisers, data brokers, insurers, employers, or any similar party. We do not build profiles about you and there is no advertising in the app.</p>
+        <p>The only third parties involved are the infrastructure providers named above — Google Firebase, Google Play, and Google Drive — each acting in the narrow role described in this policy.</p>
+        <p>We may disclose information if legally compelled to do so. In practice we hold almost nothing about you, so there is very little that could be disclosed.</p>
+      </div>
+    </section>
+
+    <section class="clause">
+      <div class="gloss">
+        <span class="num">10</span>
+        <h2>Keeping and deleting data</h2>
+        <p class="plain">You are in control. Here's how to remove everything.</p>
+      </div>
+      <div class="body">
+        <p>Data you enter stays on your device until you delete it. To remove it:</p>
+        <ul>
+          <li><strong>A single day:</strong> open that day in the app and choose <em>Clear this day</em>.</li>
+          <li><strong>A profile:</strong> delete the profile in Settings.</li>
+          <li><strong>Everything on the device:</strong> uninstall the app, or clear its storage in your Android settings.</li>
+          <li><strong>Your backups:</strong> delete the <em>RedAlertBackups</em> folder from your Google Drive.</li>
+          <li><strong>Analytics:</strong> email us at the address in section 1 and we will request deletion of the analytics records associated with your app instance identifier.</li>
+        </ul>
+        <p>Analytics records are retained by Google for a limited period and then deleted automatically. Because we hold no account for you, there is nothing else on our side to delete.</p>
+      </div>
+    </section>
+
+    <section class="clause">
+      <div class="gloss">
+        <span class="num">11</span>
+        <h2>Your rights</h2>
+        <p class="plain">GDPR, UK GDPR, LGPD, CCPA — and what they mean here.</p>
+      </div>
+      <div class="body">
+        <p>Depending on where you live, you may have rights to access, correct, delete, restrict, or object to processing of your personal information, to data portability, and to withdraw consent.</p>
+        <p>For most of what Red Alert handles, you exercise these rights directly: the data is on your device, so you can view, change, export via backup, and delete it yourself without asking us. For analytics records, contact us at <a href="mailto:redalertcycle@gmail.com">redalertcycle@gmail.com</a> and we will respond within 30 days.</p>
+        <p>We do not sell or share personal information as those terms are defined under California law, and we do not process it for cross-context behavioural advertising. We do not discriminate against anyone for exercising their rights.</p>
+        <p>If you are in the European Economic Area or the United Kingdom, you may lodge a complaint with your local supervisory authority. If you are in Brazil, you may contact the ANPD.</p>
+      </div>
+    </section>
+
+    <section class="clause">
+      <div class="gloss">
+        <span class="num">12</span>
+        <h2>Children</h2>
+        <p class="plain">Not for under-18s.</p>
+      </div>
+      <div class="body">
+        <p>Red Alert is not directed at children and is not intended for anyone under 18. We do not knowingly collect information from children. If you believe a child has used the app in a way that involves us holding their information, contact us and we will delete it.</p>
+      </div>
+    </section>
+
+    <section class="clause">
+      <div class="gloss">
+        <span class="num">13</span>
+        <h2>Security</h2>
+        <p class="plain">What we do, and what we can't promise.</p>
+      </div>
+      <div class="body">
+        <p>Your data sits in the app's private storage, protected by Android's app sandbox. Backups are encrypted before upload. Network connections use TLS.</p>
+        <p>The most significant risk to your data is physical access to your unlocked phone. We recommend using a screen lock. No method of storage or transmission is completely secure, and we cannot guarantee absolute security.</p>
+      </div>
+    </section>
+
+    <section class="clause">
+      <div class="gloss">
+        <span class="num">14</span>
+        <h2>International transfers</h2>
+        <p class="plain">Analytics and backups may be processed abroad.</p>
+      </div>
+      <div class="body">
+        <p>Google processes analytics data and Drive storage on infrastructure that may be located outside your country, including in the United States. Google applies safeguards for such transfers, including Standard Contractual Clauses where required. See Google's privacy documentation, linked above, for details.</p>
+      </div>
+    </section>
+
+    <section class="clause">
+      <div class="gloss">
+        <span class="num">15</span>
+        <h2>Not medical advice</h2>
+        <p class="plain">This is an educational tool, nothing more.</p>
+      </div>
+      <div class="body">
+        <div class="callout">
+          <p>Red Alert is an educational and informational tool. It is <strong>not</strong> a medical device, <strong>not</strong> a contraceptive method, and <strong>not</strong> a fertility treatment. Its predictions are estimates based on average cycle data and will not match every person.</p>
+        </div>
+        <p>Do not rely on this app for contraception, conception planning, or any health decision. Consult a qualified healthcare professional for medical advice.</p>
+      </div>
+    </section>
+
+    <section class="clause">
+      <div class="gloss">
+        <span class="num">16</span>
+        <h2>Changes to this policy</h2>
+        <p class="plain">We'll date any update and flag the significant ones.</p>
+      </div>
+      <div class="body">
+        <p>We may update this policy as the app changes. The effective date at the top of this page always reflects the current version. For changes that meaningfully affect how your information is handled, we will notify you in the app before the change takes effect.</p>
+      </div>
+    </section>
+
+  </div>
+</main>
+
+<section class="contact">
+  <div class="wrap">
+    <h2>Questions</h2>
+    <p>Anything about this policy, your data, or a request to exercise your rights — write to us and we'll answer.</p>
+    <p class="contact-mail"><a href="mailto:redalertcycle@gmail.com">redalertcycle@gmail.com</a></p>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <p>Red Alert: Cycle Tracker — developed by RnR. This policy covers the Android application <b>com.rnr.redalert</b> only.</p>
+  </div>
+</footer>
+
+</body>
+</html>
